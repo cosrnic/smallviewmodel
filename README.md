@@ -1,6 +1,6 @@
 # Small View Model
-Change the position, rotation and scale of your view model! <br />
-<img src="src/main/resources/assets/smallviewmodel/logo.png" style="max-width: 300px" />
+Change the position, rotation and scale of your view model! <br /> <br />
+<img src="src/main/resources/assets/smallviewmodel/logo.png" width="300px" />
 
 
 ## Versions
