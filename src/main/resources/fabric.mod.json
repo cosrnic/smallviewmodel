@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "smallviewmodel",
+  "version": "${version}",
+  "name": "Small View Model",
+  "description": "Change the position, rotation and scale of your view model!",
+  "authors": ["cosrnic"],
+  "contact": {
+    "repo": "https://github.com/cosrnic/smallviewmodel",
+    "homepage": "https://cosrnic.uk",
+    "sources": "https://github.com/cosrnic/smallviewmodel"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "icon": "assets/smallviewmodel/logo.png",
+  "entrypoints": {
+    "main": [
+      "uk.cosrnic.smallviewmodel.SmallViewModel"
+    ],
+    "modmenu": [
+      "uk.cosrnic.smallviewmodel.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "smallviewmodel.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
