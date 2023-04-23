@@ -1,6 +1,6 @@
 # Small View Model
 Change the position, rotation and scale of your view model!
-<br />
+
 
 This mod uses the [ModMenu Mod](https://github.com/TerraformersMC/ModMenu) to change the settings.
 
