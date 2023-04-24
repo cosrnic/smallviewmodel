@@ -11,7 +11,7 @@
     "sources": "https://github.com/cosrnic/smallviewmodel",
     "issues": "https://github.com/cosrnic/smallviewmodel/issues"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "environment": "*",
   "icon": "assets/smallviewmodel/logo.png",
   "entrypoints": {
