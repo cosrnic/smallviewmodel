@@ -46,5 +46,8 @@
   "text.autoconfig.smallviewmodel.option.scaleXArm.@PrefixText": "Arm Scale",
   "text.autoconfig.smallviewmodel.option.scaleXArm": "X Scale",
   "text.autoconfig.smallviewmodel.option.scaleYArm": "Y Scale",
-  "text.autoconfig.smallviewmodel.option.scaleZArm": "Z Scale"
+  "text.autoconfig.smallviewmodel.option.scaleZArm": "Z Scale",
+
+  "text.autoconfig.smallviewmodel.category.Swing Animation": "Swing Animation Settings",
+  "text.autoconfig.smallviewmodel.option.swingAnimationDuration": "Animation Duration"
 }

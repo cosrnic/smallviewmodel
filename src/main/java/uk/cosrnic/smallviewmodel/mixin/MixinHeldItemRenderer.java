@@ -1,5 +1,6 @@
 package uk.cosrnic.smallviewmodel.mixin;
 
+import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.item.HeldItemRenderer;
@@ -42,6 +43,19 @@ public abstract class MixinHeldItemRenderer {
 //        matrices.scale(SmallViewModelConfig.get().scaleXArm, SmallViewModelConfig.get().scaleYArm, SmallViewModelConfig.get().scaleZArm);
 //        matrices.translate(SmallViewModelConfig.get().posXArm, SmallViewModelConfig.get().posYArm, SmallViewModelConfig.get().posZArm);
 //    }
+
+    @ModifyExpressionValue(
+            method = "updateHeldItems",
+            at = @At(
+                    value = "INVOKE",
+                    target = "Lnet/minecraft/client/network/ClientPlayerEntity;getAttackCooldownProgress(F)F"
+            )
+    )
+    public float attackCooldown(
+            float original
+    ) {
+        return 1f;
+    }
 
 
 }

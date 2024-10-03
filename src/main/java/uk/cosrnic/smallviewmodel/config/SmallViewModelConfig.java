@@ -112,6 +112,11 @@ public class SmallViewModelConfig implements ConfigData {
     @ConfigEntry.BoundedDiscrete(max = 5)
     public float scaleZOff = 1f;
 
+    @ConfigEntry.Gui.TransitiveObject
+    @ConfigEntry.Category("Swing Animation")
+    @ConfigEntry.BoundedDiscrete(min = 2, max = 20)
+    public int swingAnimationDuration = 6;
+
 //    // ARM
 //
 //    @ConfigEntry.Gui.TransitiveObject
