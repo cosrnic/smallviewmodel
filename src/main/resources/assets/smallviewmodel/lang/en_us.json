@@ -1,50 +1,19 @@
 {
-  "text.autoconfig.smallviewmodel.title": "Small View Model Config",
-  "text.autoconfig.smallviewmodel.category.Main Hand": "Main Hand Settings",
-  "text.autoconfig.smallviewmodel.option.posXMain.@PrefixText": "Main Hand Position",
-  "text.autoconfig.smallviewmodel.option.posXMain": "X Position",
-  "text.autoconfig.smallviewmodel.option.posYMain": "Y Position",
-  "text.autoconfig.smallviewmodel.option.posZMain": "Z Position",
-
-  "text.autoconfig.smallviewmodel.option.rotXMain.@PrefixText": "Main Hand Rotation",
-  "text.autoconfig.smallviewmodel.option.rotXMain": "X Orientation",
-  "text.autoconfig.smallviewmodel.option.rotYMain": "Y Orientation",
-  "text.autoconfig.smallviewmodel.option.rotZMain": "Z Orientation",
-
-  "text.autoconfig.smallviewmodel.option.scaleXMain.@PrefixText": "Main Hand Scale",
-  "text.autoconfig.smallviewmodel.option.scaleXMain": "X Scale",
-  "text.autoconfig.smallviewmodel.option.scaleYMain": "Y Scale",
-  "text.autoconfig.smallviewmodel.option.scaleZMain": "Z Scale",
-
-  "text.autoconfig.smallviewmodel.category.Off Hand": "Off Hand Settings",
-  "text.autoconfig.smallviewmodel.option.posXOff.@PrefixText": "Off Hand Position",
-  "text.autoconfig.smallviewmodel.option.posXOff": "X Position",
-  "text.autoconfig.smallviewmodel.option.posYOff": "Y Position",
-  "text.autoconfig.smallviewmodel.option.posZOff": "Z Position",
-
-  "text.autoconfig.smallviewmodel.option.rotXOff.@PrefixText": "Off Hand Rotation",
-  "text.autoconfig.smallviewmodel.option.rotXOff": "X Orientation",
-  "text.autoconfig.smallviewmodel.option.rotYOff": "Y Orientation",
-  "text.autoconfig.smallviewmodel.option.rotZOff": "Z Orientation",
-
-  "text.autoconfig.smallviewmodel.option.scaleXOff.@PrefixText": "Off Hand Scale",
-  "text.autoconfig.smallviewmodel.option.scaleXOff": "X Scale",
-  "text.autoconfig.smallviewmodel.option.scaleYOff": "Y Scale",
-  "text.autoconfig.smallviewmodel.option.scaleZOff": "Z Scale",
-
-  "text.autoconfig.smallviewmodel.category.Arm": "Arm Settings",
-  "text.autoconfig.smallviewmodel.option.posXArm.@PrefixText": "Arm Position",
-  "text.autoconfig.smallviewmodel.option.posXArm": "X Position",
-  "text.autoconfig.smallviewmodel.option.posYArm": "Y Position",
-  "text.autoconfig.smallviewmodel.option.posZArm": "Z Position",
-
-  "text.autoconfig.smallviewmodel.option.rotXArm.@PrefixText": "Arm Rotation",
-  "text.autoconfig.smallviewmodel.option.rotXArm": "X Orientation",
-  "text.autoconfig.smallviewmodel.option.rotYArm": "Y Orientation",
-  "text.autoconfig.smallviewmodel.option.rotZArm": "Z Orientation",
-
-  "text.autoconfig.smallviewmodel.option.scaleXArm.@PrefixText": "Arm Scale",
-  "text.autoconfig.smallviewmodel.option.scaleXArm": "X Scale",
-  "text.autoconfig.smallviewmodel.option.scaleYArm": "Y Scale",
-  "text.autoconfig.smallviewmodel.option.scaleZArm": "Z Scale"
+  "smallviewmodel.title": "Small View Model Config",
+  "smallviewmodel.enabled": "Enabled",
+  "smallviewmodel.main_hand": "Main Hand Settings",
+  "smallviewmodel.off_hand": "Off Hand Settings",
+  "smallviewmodel.arm": "Arm Settings",
+  "smallviewmodel.position": "Position",
+  "smallviewmodel.position.x": "X Position",
+  "smallviewmodel.position.y": "Y Position",
+  "smallviewmodel.position.z": "Z Position",
+  "smallviewmodel.rotation": "Rotation",
+  "smallviewmodel.rotation.x": "X Orientation",
+  "smallviewmodel.rotation.y": "Y Orientation",
+  "smallviewmodel.rotation.z": "Z Orientation",
+  "smallviewmodel.scale": "Scale",
+  "smallviewmodel.scale.x": "X Scale",
+  "smallviewmodel.scale.y": "Y Scale",
+  "smallviewmodel.scale.z": "Z Scale"
 }

@@ -7,7 +7,7 @@
   "authors": ["cosrnic"],
   "contact": {
     "repo": "https://github.com/cosrnic/smallviewmodel",
-    "homepage": "https://cosrnic.uk",
+    "homepage": "https://cosmic.wales",
     "sources": "https://github.com/cosrnic/smallviewmodel",
     "issues": "https://github.com/cosrnic/smallviewmodel/issues"
   },
@@ -15,11 +15,11 @@
   "environment": "*",
   "icon": "assets/smallviewmodel/logo.png",
   "entrypoints": {
-    "main": [
-      "uk.cosrnic.smallviewmodel.SmallViewModel"
+    "client": [
+      "wales.cosmic.smallviewmodel.SmallViewModel"
     ],
     "modmenu": [
-      "uk.cosrnic.smallviewmodel.config.ModMenuIntegration"
+      "wales.cosmic.smallviewmodel.config.ModMenuIntegration"
     ]
   },
   "mixins": [
