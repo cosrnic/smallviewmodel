@@ -2,13 +2,10 @@ package wales.cosmic.smallviewmodel.config;
 
 
 import com.google.gson.Gson;
-import com.moulberry.lattice.LatticeDynamicFrequency;
 import com.moulberry.lattice.annotation.LatticeCategory;
 import com.moulberry.lattice.annotation.LatticeFormatValues;
 import com.moulberry.lattice.annotation.LatticeOption;
-import com.moulberry.lattice.annotation.constraint.LatticeDisableIf;
 import com.moulberry.lattice.annotation.constraint.LatticeFloatRange;
-import com.moulberry.lattice.annotation.widget.LatticeWidgetButton;
 import com.moulberry.lattice.annotation.widget.LatticeWidgetSlider;
 import net.fabricmc.loader.api.FabricLoader;
 import org.slf4j.Logger;
@@ -72,96 +69,99 @@ public class SmallViewModelConfig {
 
     public static class Position {
         @LatticeOption(title = "smallviewmodel.position.x")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = -3, max = 3, clampMin = -3, clampMax = 3)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float x = 0f;
 
         @LatticeOption(title = "smallviewmodel.position.y")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = -3, max = 3, clampMin = -3, clampMax = 3)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float y = 0f;
 
         @LatticeOption(title = "smallviewmodel.position.z")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = -3, max = 3, clampMin = -3, clampMax = 3)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float z = 0f;
 
-        @LatticeOption(title = "smallviewmodel.enabled")
-        @LatticeWidgetButton
-        public boolean enabled = true;
-
-        private boolean checkDisabled() {
-            return !this.enabled;
-        }
+        // todo: this for some reason effects all sliders even ones in different classes, unsure why probably a Lattice bug
+//        @LatticeOption(title = "smallviewmodel.enabled")
+//        @LatticeWidgetButton
+//        public boolean enabled = true;
+//
+//        private boolean checkDisabled() {
+//            return !this.enabled;
+//        }
 
     }
 
     public static class Rotation {
         @LatticeOption(title = "smallviewmodel.rotation.x")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = -180, max = 180, clampMin = -180, clampMax = 180)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float x = 0f;
 
         @LatticeOption(title = "smallviewmodel.rotation.y")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = -180, max = 180, clampMin = -180, clampMax = 180)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float y = 0f;
 
         @LatticeOption(title = "smallviewmodel.rotation.z")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = -180, max = 180, clampMin = -180, clampMax = 180)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float z = 0f;
 
-        @LatticeOption(title = "smallviewmodel.enabled")
-        @LatticeWidgetButton
-        public boolean enabled = true;
-
-        private boolean checkDisabled() {
-            return !this.enabled;
-        }
+        // todo: this for some reason effects all sliders even ones in different classes, unsure why probably a Lattice bug
+//        @LatticeOption(title = "smallviewmodel.enabled")
+//        @LatticeWidgetButton
+//        public boolean enabled = true;
+//
+//        private boolean checkDisabled() {
+//            return !this.enabled;
+//        }
     }
 
     public static class Scale {
         @LatticeOption(title = "smallviewmodel.scale.x")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = 0.1f, max = 5, clampMin = 0.1f, clampMax = 5)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float x = 1f;
 
         @LatticeOption(title = "smallviewmodel.scale.y")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = 0.1f, max = 5, clampMin = 0.1f, clampMax = 5)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float y = 1f;
 
         @LatticeOption(title = "smallviewmodel.scale.z")
-        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
+//        @LatticeDisableIf(function = "checkDisabled", frequency = LatticeDynamicFrequency.EVERY_TICK)
         @LatticeFloatRange(min = 0.1f, max = 5, clampMin = 0.1f, clampMax = 5)
         @LatticeFormatValues(formattingString = "%.2f")
         @LatticeWidgetSlider
         public float z = 1f;
 
-        @LatticeOption(title = "smallviewmodel.enabled")
-        @LatticeWidgetButton
-        public boolean enabled = true;
-
-        private boolean checkDisabled() {
-            return !this.enabled;
-        }
+        // todo: this for some reason effects all sliders even ones in different classes, unsure why probably a Lattice bug
+//        @LatticeOption(title = "smallviewmodel.enabled")
+//        @LatticeWidgetButton
+//        public boolean enabled = true;
+//
+//        private boolean checkDisabled() {
+//            return !this.enabled;
+//        }
     }
 
     public static SmallViewModelConfig get() {
